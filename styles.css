@@ -1,0 +1,68 @@
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+
+.welcome {
+  height: 100%;
+  width: 100%;
+  font-size: large;
+}
+
+.dealer-title {
+  font-weight: bold;
+}
+
+.dealer-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dealer-card-1 {
+  height: 180px;
+  width: 120px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+.dealer-card-2 {
+  height: 180px;
+  width: 120px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 40px;
+  background-color: black;
+}
+
+.player-title {
+  font-weight: bold;
+}
+
+.player-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.player-card-1 {
+  height: 180px;
+  width: 120px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+.player-card-2 {
+  height: 180px;
+  width: 120px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+#status {
+  height: 100%;
+  width: 100%;
+  font-size: large;
+}
